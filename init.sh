@@ -8,9 +8,9 @@ fi
 source .env
 
 if [[ "$NODE_ENV" == "development" ]]; then
-	npm install
+	echo "Running in DEVELOPMENT mode"
 	adonis serve --dev
 else
-	npm install --prod
+	echo "Running in PRODUCTION mode"
 	adonis serve
 fi

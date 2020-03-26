@@ -3,6 +3,11 @@
 Este projeto tem como objetivo servir de exemplo para aplicações em AdonisJS
 com docker compose
 
+Neste ambiente temos o serviço da aplicação **app** e do banco de dados em **mongodb**
+
+## Requisitos
+
+Para executar este projeto é necessário ter instalado e configurado o `Docker` e `Docker compose`
 
 ## Iniciando o projeto
 
@@ -16,6 +21,8 @@ Na variavel **NODE_ENV** defina se o serviço irá executar em ambiente de desen
 ## Makefile
 
 O arquivo `Makefile` oferece uma série de atalhos para executar em cima do container
+
+Pare executar estes comandos é necessário ter o makefile instalado
 
 > Criar o container
 

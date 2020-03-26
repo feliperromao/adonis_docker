@@ -4,4 +4,6 @@ WORKDIR /app
 
 ADD --chown=node:node . .
 
-CMD npm install -g @adonisjs/cli && sh /app/init.sh
+RUN npm install -g @adonisjs/cli
+
+CMD  sh /app/init.sh

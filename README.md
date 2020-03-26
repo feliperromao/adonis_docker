@@ -32,5 +32,11 @@ make up
 > Logs do serviço
 
 ```sh
-make up
+make logs
+```
+
+> Acessar bash do app
+
+```sh
+make sh
 ```

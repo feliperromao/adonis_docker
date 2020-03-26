@@ -14,4 +14,4 @@ logs:
 	docker-compose logs -f app
 
 sh:
-	docker-compose exec app sh
+	docker-compose exec --user=node app sh
